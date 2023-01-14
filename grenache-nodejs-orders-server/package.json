@@ -1,0 +1,20 @@
+{
+  "name": "grenache-nodejs-orders-server",
+  "version": "1.0.1",
+  "description": "A simple example for grenache",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grenache",
+    "DHT"
+  ],
+  "author": "Dmitriy Molchanov <d.molchanov.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.4",
+    "grenache-nodejs-link": "^0.7.12",
+    "grenache-nodejs-ws": "^0.7.10"
+  }
+}
