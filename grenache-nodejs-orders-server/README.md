@@ -38,6 +38,6 @@ User sent: {"amount":100,"type":"buy"} and received: {"amount":100,"type":"buy",
 
 Issues:
 
-1. Grenache client picks arbitrary server so it causes that an order can be distributed to the same client server and cause duplication order error. I expected it always to be destributed to the server spicified in configuration to correspond task the requirements.
-2. Is makes sense to catch all uncaught exceptions to prevent server chrash and restart.
+1. Grenache client picks arbitrary server so it an order can be distributed to the same client server and cause duplication order error. I expected it always to be destributed to the server spicified in configuration to correspond the task requirements.
+2. It makes sense to catch all uncaught exceptions to prevent server chrash and restart.
 3. Orders matching mechanism is not clear from the task description so simple order push and rejection for duplicates were impelemented.
